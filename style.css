@@ -35,7 +35,7 @@ body{
     font-size: 48px;
     font-weight: 800;
     color: #FFFFFF;
-    text-shadow: 4px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     line-height: 1.4;
     max-width: 750px;
     margin: 20px auto;
@@ -64,7 +64,7 @@ body{
     border-radius: 50px;
     padding: 14px 36px;
     margin: 0 6px;
-    box-shadow:8px 20px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) ;
     text-decoration: none;
 }
 /* Secondary Button */
