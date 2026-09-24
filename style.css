@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Tajawal", sans-serif;
+}
+/*Hero Section Layout & Background*/
+#hero{
+    background-image: linear-gradient(to right, rgba(99, 102, 241, 0.85), rgba(236, 72, 153, 0.75)), url('img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 550px;
+    text-align: center;
+    padding: 50px;
+}
+/*Top Badge*/
+#hero .start{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    width: 200px; 
+    margin: 150px auto 20px auto ;          
+}
+/*Title & Description*/
+#hero .title{
+    font-family: 'Cairo', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-shadow: 4px 15px rgba(0, 0, 0, 0.3);
+    line-height: 1.4;
+    max-width: 750px;
+    margin: 20px auto;
+}
+#hero .dis{
+    color: #F1F1F1;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    line-height: 1.8;
+    margin:25px auto;
+}
+/*Buttons*/
+#hero .btn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* Primary Button */
+#hero .btn1{
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color:#6366F1;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 36px;
+    margin: 0 6px;
+    box-shadow:8px 20px rgba(0, 0, 0, 0.2) ;
+    text-decoration: none;
+}
+/* Secondary Button */
+#hero .btn2{
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    color:#FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 14px 36px;
+    margin: 0 6px;
+    text-decoration: none;
+}  
+/*Statistics Subtext*/
+#hero .stats{
+    font-size: 14px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
